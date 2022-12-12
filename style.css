@@ -350,8 +350,8 @@ p{
   }
 .text-top{
   background-position: center;
-  background-size: 370%;
-  background-image: url(image/bg.png);
+  background-size: 100%;
+  background-image: url(image/pbg.png);
   
 }
 .work{
