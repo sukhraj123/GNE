@@ -205,10 +205,12 @@ padding-bottom: 100px;
 .text-top h2{
     text-align: left;
     font-size: 60px;
+    color: #fff;
 
 }
 .text-top p{
     text-align: left;
+    color: #fff;
 }
 .options{
   padding-top: 25px;
@@ -379,12 +381,5 @@ nav .fa-times{
   width: 80%;
 
 }
-  
-}
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  
   
 }
