@@ -306,6 +306,7 @@ width: 200px;
 .text-top{
   background-position: center;
   background-size: 370%;
+  background-image: url(image/bg.png);
   
 }
 .work{
