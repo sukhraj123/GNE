@@ -195,9 +195,7 @@ padding-bottom: 100px;
   align-items: center;
   color: #ffffff;
 }
-.work a :hover{
-  box-shadow: 0 0 20px 10px #ffc400;
-}
+
 
 .btn{
     width: 50px;
@@ -287,11 +285,26 @@ margin: auto;
 align-items: center;
 color: #ffffff;
 }
-.apps a :hover{
-box-shadow: 0 0 20px 10px rgb(255, 132, 9);
+
+h6{
+  color: #fff;
+}
+.list{
+  display: flex;
+  margin: auto;
+  width: 80%;
+  
+}
+.list img{
+  width: 40%;
 }
 .footer{
   padding-top: 200px;
+  display: flex;
+  margin: auto;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #000000;
 }
 .footer img{
 width: 200px;
@@ -299,9 +312,41 @@ width: 200px;
 .footer p{ 
   font-size: 14px;
 }
+.footer h2{
+  color: #fff;
+  text-align: left;
+  padding-left: 100px;
+}
+.footer h3{
+  color: #ffc400;
+  font-size: medium;
+}
+h1{
+  color: #fff;
+}
+h2{
+  color: #fff;
+}
+p{
+  color: #fff;
+}
+.down{
+  width: 100%;
+  background-color: #000000;
+}
+.down p{
+  font-size: small;
+}
 @media(max-width: 700px){
   .contact{
     display: block;
+  }
+  .list{
+    display: block;
+  }
+  .list img{
+    display: block;
+    width: 80%;
   }
 .text-top{
   background-position: center;
