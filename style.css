@@ -18,6 +18,36 @@ background-repeat: no-repeat;
 .us p{
   color: #000000;
 }
+.bgg{
+ 
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(image/bg\ \(1\).jpg);
+  background-position: center;
+  background-size: cover;
+  
+  position: relative;
+
+}
+.bggg{
+  min-height: 100vh;
+    width: 100%;
+    background-image: url(image/bg\ \(2\).jpg); 
+     background-position: center;
+    background-size: cover;
+    
+    position: relative;
+
+}
+.bgggg{
+  min-height: 100vh;
+    width: 100%;
+    background-image: url(image/bg\ \(3\).jpg); 
+     background-position: center;
+    background-size: cover;
+    
+    position: relative;
+}
 nav.sticky{
   position: fixed;
   top: 0;
@@ -368,6 +398,18 @@ p{
   font-size: 16px;
 }
 @media(max-width: 700px){
+  .bgg{
+    display: block;
+    background-size: cover;
+    background-image: url(image/bgg\ \(1\).jpg); 
+  }
+  .bggg{
+    background-image: url(image/bgg\ \(2\).jpg); 
+  }
+  .bgggg{
+    background-image: url(image/bgg\ \(3\).jpg); 
+  }
+  
   .contact{
     display: block;
   }
