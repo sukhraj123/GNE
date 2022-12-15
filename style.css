@@ -18,7 +18,12 @@ background-repeat: no-repeat;
 .us p{
   color: #000000;
 }
-
+nav.sticky{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
 nav{
   display: flex;
   padding: 0% 6%;
