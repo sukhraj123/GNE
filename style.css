@@ -402,6 +402,7 @@ p{
     display: block;
     background-size: cover;
     background-image: url(image/bgg\ \(1\).jpg); 
+    padding-bottom: 50px;
   }
   .bggg{
     background-image: url(image/bgg\ \(2\).jpg); 
