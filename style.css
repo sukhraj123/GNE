@@ -447,6 +447,9 @@ p{
 .apps{
   display: block;
 }
+h4{
+  font-size: 45px;
+}
   .options{
     display: block;
     padding-left: 10%;
