@@ -22,7 +22,7 @@ background-repeat: no-repeat;
  
   min-height: 100vh;
   width: 100%;
-  background-image: url(image/ab\ \(1\).jpg);
+  background-image: url(image/bg\ \(1\).jpg);
   background-position: center;
   background-size: cover;
   
@@ -32,7 +32,7 @@ background-repeat: no-repeat;
 .bggg{
   min-height: 100vh;
     width: 100%;
-    background-image: url(image/ab\ \(2\).jpg); 
+    background-image: url(image/bg\ \(2\).jpg); 
      background-position: center;
     background-size: cover;
     
@@ -42,7 +42,7 @@ background-repeat: no-repeat;
 .bgggg{
   min-height: 100vh;
     width: 100%;
-    background-image: url(image/ab\ \(3\).jpg); 
+    background-image: url(image/bg\ \(3\).jpg); 
      background-position: center;
     background-size: cover;
     
@@ -51,16 +51,17 @@ background-repeat: no-repeat;
 .bggggg{
   min-height: 100vh;
     width: 100%;
-    background-image: url(image/ab\ \(4\).jpg); 
+    background-image: url(image/bg\ \(4\).jpg); 
      background-position: center;
     background-size: cover;
     
     position: relative;
 }
 .reno{
+  margin-top: 50px;
   min-height: 100vh;
     width: 100%;
-    background-image: url(image/ab\ \(5\).jpg); 
+    background-image: url(image/bg\ \(5\).jpg); 
      background-position: center;
     background-size: cover;
     
@@ -117,6 +118,7 @@ nav img{
   text-decoration: none;
   font-size: 14px;
   background-attachment: fixed;
+  font-weight: 400;
   
 }
 .nav-links ul li::after{
@@ -427,24 +429,31 @@ h4{
 @media(max-width: 700px){
   .text-top p{
     height: 1000px;
+    padding-bottom: 100px;
   }
   .bgg{
     display: block;
     background-size: cover;
     background-image: url(image/bgg\ \(1\).jpg); 
     padding-bottom: 50px;
+    background-repeat: no-repeat;
   }
   .bggg{
-    background-image: url(image/mobile\ \(3\).jpg); 
+    background-image: url(image/bgg\ \(2\).jpg); 
+    background-repeat: no-repeat;
   }
   .bgggg{
-    background-image: url(image/mobile.jpg); 
+    background-image: url(image/bgg\ \(3\).jpg); 
+    background-repeat: no-repeat;
   }
   .bggggg{
-    background-image: url(image/bgg\ \(3\).jpg); 
+    background-image: url(image/bgg\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-size: 90%; 
   }
   .reno{
-    background-image: url(image/mobile\ \(2\).jpg); 
+    background-image: url(image/bgg\ \(5\).jpg); 
+    background-repeat: no-repeat;
   }
   .contact{
     display: block;
