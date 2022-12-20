@@ -22,7 +22,7 @@ background-repeat: no-repeat;
  
   min-height: 100vh;
   width: 100%;
-  background-image: url(image/bg\ \(1\).jpg);
+  background-image: url(image/ab\ \(1\).jpg);
   background-position: center;
   background-size: cover;
   
@@ -32,7 +32,7 @@ background-repeat: no-repeat;
 .bggg{
   min-height: 100vh;
     width: 100%;
-    background-image: url(image/bg\ \(2\).jpg); 
+    background-image: url(image/ab\ \(2\).jpg); 
      background-position: center;
     background-size: cover;
     
@@ -42,7 +42,7 @@ background-repeat: no-repeat;
 .bgggg{
   min-height: 100vh;
     width: 100%;
-    background-image: url(image/Commeercial.jpg); 
+    background-image: url(image/Commeercial\ \(4\).jpg); 
      background-position: center;
     background-size: cover;
     
@@ -51,7 +51,16 @@ background-repeat: no-repeat;
 .bggggg{
   min-height: 100vh;
     width: 100%;
-    background-image: url(image/bg\ \(3\).jpg); 
+    background-image: url(image/ab\ \(4\).jpg); 
+     background-position: center;
+    background-size: cover;
+    
+    position: relative;
+}
+.reno{
+  min-height: 100vh;
+    width: 100%;
+    background-image: url(image/ab\ \(5\).jpg); 
      background-position: center;
     background-size: cover;
     
@@ -414,6 +423,7 @@ h4{
 .text p{
   text-align: center;
 }
+
 @media(max-width: 700px){
   .text-top p{
     height: 1000px;
@@ -425,13 +435,16 @@ h4{
     padding-bottom: 50px;
   }
   .bggg{
-    background-image: url(image/bgg\ \(2\).jpg); 
+    background-image: url(image/mobile\ \(1\).jpg); 
   }
   .bgggg{
     background-image: url(image/mobile.jpg); 
   }
   .bggggg{
     background-image: url(image/bgg\ \(3\).jpg); 
+  }
+  .reno{
+    background-image: url(image/mobile\ \(2\).jpg); 
   }
   .contact{
     display: block;
