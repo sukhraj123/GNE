@@ -9,6 +9,7 @@ body {
    justify-content: center;
 background-image: url(image/Untitled\ design\ \(16\).png);
 background-repeat: no-repeat;
+background-size: 100%;
     align-items: center;
     
 }
@@ -17,6 +18,11 @@ background-repeat: no-repeat;
 }
 .us p{
   color: #000000;
+}
+.rowtwo{
+  background-image: url(image/Untitled\ design\ \(7\).gif);
+background-repeat: no-repeat;
+background-size: 100%;
 }
 .bgg{
  
@@ -62,6 +68,16 @@ background-repeat: no-repeat;
   min-height: 100vh;
     width: 100%;
     background-image: url(image/bg\ \(5\).jpg); 
+     background-position: center;
+    background-size: cover;
+    
+    position: relative;
+}
+.renoo{
+  margin-top: 50px;
+  min-height: 100vh;
+    width: 100%;
+    background-image: url(image/Untitled\ design\ \(7\).gif); 
      background-position: center;
     background-size: cover;
     
@@ -173,7 +189,7 @@ a {
 } 
 h1{
   text-align: center;
-  font-size: 38px;
+  font-size: 36px;
   font-weight: 200;
   padding:2%;
   margin: auto;
@@ -249,7 +265,7 @@ padding-bottom: 100px;
 }
 .text-top h2{
     text-align: left;
-    font-size: 60px;
+    font-size: 52px;
     color: rgb(0, 0, 0);
 
 }
@@ -430,6 +446,9 @@ h4{
   .text-top p{
     height: 1000px;
     padding-bottom: 100px;
+  }
+  .renoo{
+    background-image: url(./image/Untitled\ design\ \(8\).gif);
   }
   .bgg{
     display: block;
